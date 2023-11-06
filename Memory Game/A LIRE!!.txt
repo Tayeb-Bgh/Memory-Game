@@ -1,0 +1,5 @@
+Pour jouer :
+	-ouvrir : "index.html"
+	-Choisir le theme : "chiffre" ou "lettre"
+	-Choisir la taille de la grid : "4*4" ou "6*6"
+	-Retenir le plus d'emplacement de paire de chiffre ou de lettre que vous pouvez pour pouvoir finir le jeu le plus rapidement possible.

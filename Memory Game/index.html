@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="index.js"></script>
+
+</head>
+<body>
+
+    <main>
+        <section id="main__menu">
+            <header id="menu__header">
+                <h1 id="menu__header_title">memory</h1>
+            </header>
+            <div id="menu__body">
+                <div id="theme">
+                    <h4>Select theme</h4>
+                    <div id="theme_buttons">
+                        <label for="numbers" class="button">
+                            <input type="radio" name="theme_choice" id="numbers" value="numbers" checked>
+                            numbers
+                        </label>
+                        <label for="letters" class="button">
+                            <input type="radio" name="theme_choice" id="letters" value="letters">
+                            letters
+                        </label>
+                    </div>
+                </div>
+                <div id="grid_size">
+                    <h4>Select Grid Size</h4>
+                    <div id="grid_buttons">
+                        <label for="fourdotfour" class="button">
+                            4&times;4
+                            <input type="radio" name="grid_choice" id="fourdotfour" value="4" checked>
+                        </label>
+                        <label for="sixdotsix" class="button">
+                            6&times;6
+                            <input type="radio" name="grid_choice" id="sixdotsix" value="6">
+                        </label>                        
+                    </div>
+                </div>
+                <button id="start">Start Game</button>
+            </div>
+        </section>
+
+        
+    </main>
+    <div id="winning_screen">
+        <button id="close_button">&times;</button>
+        <div id="score">
+            <h1 style="color:var(--ORANGE)">GAME WON!</h1>
+            <h1>Your Time Is</h1>
+
+        </div>
+    </div>
+
+    <div id="overlay"></div>
+</body>
+</html>
